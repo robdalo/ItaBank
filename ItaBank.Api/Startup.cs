@@ -1,8 +1,6 @@
-using ItaBank.DataAccess;
+using ItaBank.Core.Startup;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -23,8 +21,11 @@ namespace ItaBank.Api
         public void ConfigureServices(IServiceCollection services)
         {
             var connectionString = _configuration["ItaBankConnectionString"];
+            var dependencyInjector = new DependencyInjector(connectionString);
 
-            services.AddDbContext<ItaBankContext>(o => o.UseSqlServer(connectionString));
+            dependencyInjector.Configure(services);
+
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,13 +37,9 @@ namespace ItaBank.Api
             }
 
             app.UseRouting();
-
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                endpoints.MapControllers();
             });
         }
     }
