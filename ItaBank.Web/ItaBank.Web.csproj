@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ItaBank.Domain\ItaBank.Domain.csproj" />
+    <ProjectReference Include="..\ItaBank.Mapping\ItaBank.Mapping.csproj" />
+    <ProjectReference Include="..\ItaBank.SDK\ItaBank.SDK.csproj" />
+  </ItemGroup>
+
+</Project>

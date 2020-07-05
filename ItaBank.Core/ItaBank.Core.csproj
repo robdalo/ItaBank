@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ItaBank.Domain\ItaBank.Domain.csproj" />
-    <ProjectReference Include="..\ItaBank.SDK\ItaBank.SDK.csproj" />
   </ItemGroup>
 
   <ItemGroup>

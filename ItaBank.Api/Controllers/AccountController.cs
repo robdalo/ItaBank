@@ -1,9 +1,8 @@
-﻿using ItaBank.Core.Mapping;
-using ItaBank.Core.Services.Interfaces;
+﻿using ItaBank.Core.Services.Interfaces;
+using ItaBank.Mapping;
 using ItaBank.SDK.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace ItaBank.Api.Controllers
 {
@@ -22,7 +21,7 @@ namespace ItaBank.Api.Controllers
         public ActionResult<List<Account>> Get()
         {
             var accounts = _accountService.Get();
-            var accountsMapped = accounts.Select(a => AccountMapper.Map(a)).ToList();
+            var accountsMapped = AccountMapper.DomainToSDK(accounts);
             return accountsMapped;
         }
     }

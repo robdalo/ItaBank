@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ItaBank.Core\ItaBank.Core.csproj" />
+    <ProjectReference Include="..\ItaBank.Mapping\ItaBank.Mapping.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

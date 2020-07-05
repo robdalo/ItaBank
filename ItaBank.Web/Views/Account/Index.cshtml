@@ -1,0 +1,22 @@
+﻿@model ItaBank.Web.Models.AccountViewModel
+
+@{
+    ViewData["Title"] = "Accounts";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Accounts</h1>
+    <p>This is a list of the accounts.</p>
+    <table style="width: 100%">
+        @foreach (var account in Model.Accounts)
+        {
+            <tr>
+                <td>@account.Id</td>
+                <td>@account.Code</td>
+                <td>@account.Name</td>
+                <td>@account.Address</td>
+                <td>@account.Balance</td>
+            </tr>
+        }
+    </table>
+</div>
