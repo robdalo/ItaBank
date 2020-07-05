@@ -10,6 +10,6 @@ namespace ItaBank.DataAccess
         }
 
         public DbSet<Account> Accounts { get; set; }
-        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<AccountTransaction> Transactions { get; set; }
     }
 }

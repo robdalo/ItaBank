@@ -1,0 +1,87 @@
+05/07/2020 20:21:56	This log contains information about the import schema operation into project 'ItaBank.Database' on computer 'LUNATIC' by user 'robd'.
+05/07/2020 20:21:56	Import of database schema has started.
+05/07/2020 20:22:01	Gathering database credentials
+05/07/2020 20:22:01	Gathering database options
+05/07/2020 20:22:01	Gathering generic database scoped configuration option
+05/07/2020 20:22:01	Gathering users
+05/07/2020 20:22:01	Gathering roles
+05/07/2020 20:22:01	Gathering application roles
+05/07/2020 20:22:01	Gathering role memberships
+05/07/2020 20:22:01	Gathering filegroups
+05/07/2020 20:22:01	Gathering full-text catalogs
+05/07/2020 20:22:01	Gathering assemblies
+05/07/2020 20:22:01	Gathering certificates
+05/07/2020 20:22:01	Gathering asymmetric keys
+05/07/2020 20:22:01	Gathering symmetric keys
+05/07/2020 20:22:01	Gathering encrypted symmetric keys
+05/07/2020 20:22:01	Gathering schemas
+05/07/2020 20:22:01	Gathering XML schema collections
+05/07/2020 20:22:01	Gathering user-defined data types
+05/07/2020 20:22:01	Gathering user-defined types
+05/07/2020 20:22:01	Gathering table types
+05/07/2020 20:22:01	Gathering unique keys for table types
+05/07/2020 20:22:01	Gathering primary keys for table types
+05/07/2020 20:22:01	Gathering indexes for table types
+05/07/2020 20:22:01	Gathering check constraints for table types
+05/07/2020 20:22:01	Gathering default constraints for table types
+05/07/2020 20:22:01	Gathering partition functions
+05/07/2020 20:22:01	Gathering partition schemes
+05/07/2020 20:22:01	Gathering functions
+05/07/2020 20:22:01	Gathering encrypted functions
+05/07/2020 20:22:01	Gathering aggregates
+05/07/2020 20:22:01	Gathering procedures
+05/07/2020 20:22:01	Gathering encrypted procedures
+05/07/2020 20:22:01	Gathering tables
+05/07/2020 20:22:01	Gathering primary keys
+05/07/2020 20:22:01	Gathering unique constraints
+05/07/2020 20:22:01	Gathering foreign keys
+05/07/2020 20:22:01	Gathering default constraints
+05/07/2020 20:22:01	Gathering check constraints
+05/07/2020 20:22:01	Gathering views
+05/07/2020 20:22:01	Gathering encrypted views
+05/07/2020 20:22:01	Gathering indexes
+05/07/2020 20:22:01	Gathering statistics
+05/07/2020 20:22:01	Gathering full-text index stoplists
+05/07/2020 20:22:01	Gathering search property lists
+05/07/2020 20:22:01	Gathering search properties
+05/07/2020 20:22:01	Gathering full-text indexes
+05/07/2020 20:22:01	Gathering column store indexes
+05/07/2020 20:22:01	Gathering spatial indexes
+05/07/2020 20:22:01	Gathering XML indexes
+05/07/2020 20:22:01	Gathering Selective XML indexes
+05/07/2020 20:22:01	Gathering encrypted triggers
+05/07/2020 20:22:01	Gathering triggers
+05/07/2020 20:22:01	Gathering encrypted and clr ddl triggers
+05/07/2020 20:22:01	Gathering ddl triggers
+05/07/2020 20:22:01	Creating edge constraints
+05/07/2020 20:22:01	Gathering synonyms
+05/07/2020 20:22:01	Gathering defaults
+05/07/2020 20:22:01	Gathering data constraint uddt bindings
+05/07/2020 20:22:01	Gathering rules
+05/07/2020 20:22:01	Gathering data constraint uddt bindings
+05/07/2020 20:22:01	Gathering message types
+05/07/2020 20:22:01	Gathering queues
+05/07/2020 20:22:01	Gathering contracts
+05/07/2020 20:22:01	Gathering services
+05/07/2020 20:22:01	Gathering event notifications
+05/07/2020 20:22:01	Gathering remote service bindings
+05/07/2020 20:22:01	Gathering broker priorities
+05/07/2020 20:22:01	Gathering signatures
+05/07/2020 20:22:01	Gathering data compression options
+05/07/2020 20:22:01	Gathering sequence types
+05/07/2020 20:22:01	Gathering security policies
+05/07/2020 20:22:01	Gather column encryption keys
+05/07/2020 20:22:01	Gathering column master keys
+05/07/2020 20:22:01	Gathering external data sources
+05/07/2020 20:22:01	Gathering external file formats
+05/07/2020 20:22:01	Gathering external tables
+05/07/2020 20:22:01	Gathering extended properties
+05/07/2020 20:22:01	Gathering credentials
+05/07/2020 20:22:01	Gathering logins
+05/07/2020 20:22:01	Gathering server audits
+05/07/2020 20:22:01	An exception was encountered while attempting to retrieve the default data path: ''.  As a result, absolute paths may appear in ADD FILE statements.
+05/07/2020 20:22:01	Scanning project for duplicate elements
+05/07/2020 20:22:02	Finished duplicate element processing
+05/07/2020 20:22:02	Finished importing database.
+05/07/2020 20:22:02	A summary of the import was saved to the following location: D:\Bob\Source\ItaBank\ItaBank.Database\Import Schema Logs\ItaBank.Database_20200705072156.log
+05/07/2020 20:22:02	Click Finish to continue...
