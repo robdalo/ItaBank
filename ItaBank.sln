@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItaBank.DataAccess", "ItaBa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItaBank.DataAccess.Tests", "ItaBank.DataAccess.Tests\ItaBank.DataAccess.Tests.csproj", "{E942EC67-AC4F-491C-931E-FD8BECB3EC89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItaBank.Api", "ItaBank.Api\ItaBank.Api.csproj", "{5EBF4BB1-F5C1-4836-B521-D7C8B4970F71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{E942EC67-AC4F-491C-931E-FD8BECB3EC89}.Release|x64.Build.0 = Release|Any CPU
 		{E942EC67-AC4F-491C-931E-FD8BECB3EC89}.Release|x86.ActiveCfg = Release|Any CPU
 		{E942EC67-AC4F-491C-931E-FD8BECB3EC89}.Release|x86.Build.0 = Release|Any CPU
+		{5EBF4BB1-F5C1-4836-B521-D7C8B4970F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBF4BB1-F5C1-4836-B521-D7C8B4970F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EBF4BB1-F5C1-4836-B521-D7C8B4970F71}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5EBF4BB1-F5C1-4836-B521-D7C8B4970F71}.Debug|x64.Build.0 = Debug|Any CPU
+		{5EBF4BB1-F5C1-4836-B521-D7C8B4970F71}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5EBF4BB1-F5C1-4836-B521-D7C8B4970F71}.Debug|x86.Build.0 = Debug|Any CPU
+		{5EBF4BB1-F5C1-4836-B521-D7C8B4970F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBF4BB1-F5C1-4836-B521-D7C8B4970F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EBF4BB1-F5C1-4836-B521-D7C8B4970F71}.Release|x64.ActiveCfg = Release|Any CPU
+		{5EBF4BB1-F5C1-4836-B521-D7C8B4970F71}.Release|x64.Build.0 = Release|Any CPU
+		{5EBF4BB1-F5C1-4836-B521-D7C8B4970F71}.Release|x86.ActiveCfg = Release|Any CPU
+		{5EBF4BB1-F5C1-4836-B521-D7C8B4970F71}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
