@@ -21,3 +21,14 @@ steps:
   inputs:
       command: test
       projects: "**/*Tests/*.csproj"
+
+- task: DotNetCoreCLI@2
+  displayName: "Package"
+  inputs:
+    command: publish
+    publishWebProjects: false
+    projects: ItaBank.ApiApp/*.csproj
+    arguments: "--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)"
+
+- task: PublishBuildArtifacts@1
+  displayName: "Publish"
