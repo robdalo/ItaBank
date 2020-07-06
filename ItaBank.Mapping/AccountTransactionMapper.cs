@@ -20,7 +20,7 @@ namespace ItaBank.Mapping
             var accountTransactionMapped = new SDK.Models.AccountTransaction
             {
                 Id = accountTransaction.Id,
-                AccountId = accountTransaction.Id,
+                AccountId = accountTransaction.AccountId,
                 Code = accountTransaction.Code,
                 Timestamp = accountTransaction.Timestamp,
                 Type = accountTransaction.Type,
@@ -35,7 +35,7 @@ namespace ItaBank.Mapping
             var accountTransactionMapped = new Domain.Models.AccountTransaction
             {
                 Id = accountTransaction.Id,
-                AccountId = accountTransaction.Id,
+                AccountId = accountTransaction.AccountId,
                 Code = accountTransaction.Code,
                 Timestamp = accountTransaction.Timestamp,
                 Type = accountTransaction.Type,

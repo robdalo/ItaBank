@@ -8,6 +8,8 @@ using System.Linq;
 
 namespace ItaBank.Core.Tests.Integration.DataAccess.Repos
 {
+    [TestFixture]
+    [Ignore("Integration")]
     public class AccountRepoTests
     {
         private readonly ItaBankContext _context;

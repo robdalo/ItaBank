@@ -9,6 +9,8 @@ using System.Linq;
 
 namespace ItaBank.Core.Tests.Integration.Services
 {
+    [TestFixture]
+    [Ignore("Integration")]
     public class AccountServiceTests
     {
         private readonly IAccountService _accountService;
