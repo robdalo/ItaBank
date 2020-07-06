@@ -28,6 +28,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItaBank.Mapping.Tests", "ItaBank.Mapping.Tests\ItaBank.Mapping.Tests.csproj", "{723862C2-A0B2-42CB-AA4A-9D465DAF78EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItaBank.ApiApp", "ItaBank.ApiApp\ItaBank.ApiApp.csproj", "{A495E158-BD2F-484D-A944-5DB28F9567AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -160,6 +162,18 @@ Global
 		{723862C2-A0B2-42CB-AA4A-9D465DAF78EC}.Release|x64.Build.0 = Release|Any CPU
 		{723862C2-A0B2-42CB-AA4A-9D465DAF78EC}.Release|x86.ActiveCfg = Release|Any CPU
 		{723862C2-A0B2-42CB-AA4A-9D465DAF78EC}.Release|x86.Build.0 = Release|Any CPU
+		{A495E158-BD2F-484D-A944-5DB28F9567AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A495E158-BD2F-484D-A944-5DB28F9567AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A495E158-BD2F-484D-A944-5DB28F9567AA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A495E158-BD2F-484D-A944-5DB28F9567AA}.Debug|x64.Build.0 = Debug|Any CPU
+		{A495E158-BD2F-484D-A944-5DB28F9567AA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A495E158-BD2F-484D-A944-5DB28F9567AA}.Debug|x86.Build.0 = Debug|Any CPU
+		{A495E158-BD2F-484D-A944-5DB28F9567AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A495E158-BD2F-484D-A944-5DB28F9567AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A495E158-BD2F-484D-A944-5DB28F9567AA}.Release|x64.ActiveCfg = Release|Any CPU
+		{A495E158-BD2F-484D-A944-5DB28F9567AA}.Release|x64.Build.0 = Release|Any CPU
+		{A495E158-BD2F-484D-A944-5DB28F9567AA}.Release|x86.ActiveCfg = Release|Any CPU
+		{A495E158-BD2F-484D-A944-5DB28F9567AA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
